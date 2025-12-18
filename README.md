@@ -43,12 +43,11 @@ javac HotelBookingSystem.java
 
 # 🖥 Sample Output
 --- Hotel Booking Management System ---
-
 1. View Available Rooms
 2. Book a Room
 3. Cancel Booking
 4. Exit
-   Enter your choice: 1
+Enter your choice: 1
 
 Available Rooms:
 Room 1
@@ -78,15 +77,28 @@ Room 8
 Room 9
 Room 10
 
-Enter your choice: 3
-Enter room number to cancel booking: 3
-Booking cancelled successfully!
+## 📁 Project Structure
 
-#👤 Author
-Raghu Ram, Intern at Syntecxhub
+```
+Syntecxhub_Hotel_Booking_Management_System/
+│
+├── HotelBookingSystem.java   # Main program (CLI)
+└── README.md                 # Project description and instructions
+```
 
-#📝 Notes
-This is a console-based CLI application, no GUI required.
-Room data is stored in ArrayList at runtime.
-Handles invalid menu choices and edge cases like booking already booked rooms or cancelling unbooked rooms.
+---
+
+## 👤 Author
+
+**Raghu Ram** – Intern at Syntecxhub
+
+---
+
+## 📝 Notes
+
+* This is a **console-based CLI application**, no GUI required.
+* Room data is stored **in memory using ArrayList**.
+* Proper handling of **edge cases and invalid inputs** ensures robust behavior.
+
+```
 
