@@ -1,5 +1,5 @@
 
-# Hotel_Booking_Management_System
+# 🏢 Hotel_Booking_Management_System
 
 ## 📌 Project Overview
 This is a **Java CLI-based Hotel Booking Management System** developed as part of the **Syntecxhub Java Programming Internship (Project-2)**.  
