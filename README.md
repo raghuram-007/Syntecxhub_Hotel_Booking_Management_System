@@ -62,11 +62,17 @@ Room 9
 Room 10
 
 Enter your choice: 2
+
 Enter room number to book: 3
+
 Room booked successfully!
 
+
 Enter your choice: 1
+
+
 Available Rooms:
+
 Room 1
 Room 2
 Room 4
