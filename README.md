@@ -1,37 +1,47 @@
 
-#📚 Hotel Booking Management System
-This is a Java CLI-based Hotel Booking Management System developed for the Syntecxhub Internship.
+# Hotel_Booking_Management_System
 
-It allows users to view available rooms, book rooms, and cancel bookings. The program uses ArrayList to store room data and includes input validation and proper handling of edge cases.
+## 📌 Project Overview
+This is a **Java CLI-based Hotel Booking Management System** developed as part of the **Syntecxhub Java Programming Internship (Project-2)**.  
+The application enables users to manage hotel room bookings efficiently through a simple command-line interface.
 
-#✨ Features
-➕ View all available rooms
-➕ Book rooms by entering room number
-❌ Cancel booked rooms by entering room number
-⚠️ Handles invalid inputs gracefully (invalid menu choice, already booked room, or cancelling unbooked room)
-🗂 Project Structure
+---
 
-Syntecxhub_Hotel_Booking_Management_System/
-│
-├── HotelBookingSystem.java       # Main program (CLI)
-└── README.md                     # Project description and instructions
+## ✨ Features
+- View all available rooms  
+- Book a room by entering the room number  
+- Cancel booked rooms  
+- Handles invalid inputs gracefully:
+  - Invalid menu choice  
+  - Booking an already booked room  
+  - Cancelling a non-booked room  
 
-▶️ How to Run
-Open terminal/PowerShell and navigate to the project folder.
-Compile the program:
-```bash
+---
+
+## 🛠 Technologies Used
+- **Java**  
+- **ArrayList** for dynamic room storage  
+- **Scanner** for user input handling  
+
+---
+
+## ▶ How to Run
+1. Open terminal/PowerShell and navigate to the project folder.  
+2. Compile the program:
+
 javac HotelBookingSystem.java
-````
 
-Run the program:
+## Follow the on-screen menu:
 
-```bash
-java HotelBookingSystem
-```
+1: View Available Rooms
 
-Follow the menu prompts in the console.
+2: Book a Room
 
-#🖥 Sample Output
+3: Cancel Booking
+
+4: Exit
+
+# 🖥 Sample Output
 --- Hotel Booking Management System ---
 
 1. View Available Rooms
